@@ -1,0 +1,163 @@
+#main {
+    background-color: gainsboro;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+
+    height: auto;
+    width: auto;
+}
+
+#head1 {
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 40px;
+    background: wheat;
+}
+
+#h3 {
+    margin: auto;
+    margin-left: 20px;
+}
+
+#iconHomePage {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+#head2 {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    background-color: burlywood;
+}
+
+#productTitle {
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#buttonsHead {
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.buttonHead {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    font-weight:bold;
+    border: 1px solid;
+    background-color: burlywood;
+}
+
+.buttonHead:hover {
+    background-color: wheat;
+}
+
+#serch {
+    /* margin-right: 30px; */
+    border-radius: 30px 0px 0px 30px;
+    border: 0px;
+
+}
+
+#divSearch {
+    margin-right: 50px;
+    display: flex;
+    height: 30px;
+}
+
+#searchIcon {
+    margin-top: -0px;
+    margin-left: auto;
+    border-top-right-radius: 30px;
+    border-end-end-radius: 30px;
+    /* margin: 8px; */
+    height: 30px;
+    background-color: aquamarine
+}
+
+#searchIcon:hover {
+    background-color: blanchedalmond;
+}
+
+#serchButton {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+#product {
+    min-height: 500px;
+    justify-self: start;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    height: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: gray;
+}
+
+#imgPhone {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin: 20px;
+}
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: blanchedalmond;
+    align-items: center;
+    margin: 20px;
+    flex-direction: row;
+    border: 0px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: auto;
+}
+
+#divImg {
+    border-radius: 20px 20px 0px 0px;
+    height: auto;
+    width: 150px;
+}
+
+.Details {
+    margin: 10px;
+}
+
+.divTextName2 {
+    height: 70px;
+    width: 150px;
+    border-top: 2px solid;
+}
+
+.material-icons {
+    margin: 7px;
+}
+
+.material-icons:hover {
+    color: blue;
+
+}

@@ -1,0 +1,142 @@
+#main {
+    background-color: gainsboro;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    height: auto;
+    width: auto;
+}
+
+#head1 {
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 40px;
+    background: wheat;
+}
+
+#iconHomePage {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+#head2 {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    background-color: burlywood;
+}
+#productTitle{
+    margin: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#buttonsHead {
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.buttonHead {
+    border-radius: 30px;
+    border: 1px solid;
+    background-color: burlywood;
+}
+
+.buttonHead:hover {
+    background-color: wheat;
+}
+
+#product {
+    min-height: 470px;
+    display: flex;
+    height: 80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: gray;
+}
+
+#imgPhone {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin: 20px;
+}
+
+#card {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    align-items: center;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 650px;
+    height: auto;
+}
+
+#divImg {
+    background-color: white;
+    display: flex;
+    border-radius: 20px 0px   0px 20px;    /* min-height: max-content; */
+    height: 100%;
+    width: 50%;
+}
+#img{
+    object-fit: contain;
+    min-height: max-content;
+    border-radius: 20px 0px   0px 20px;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+
+}
+#divDetails {
+    border-radius: 20px 20px 0px 0px;
+    height: 420px;
+    width: 60%;
+}
+.text{
+    font-size: small;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+#Discrubtion{
+    overflow: hidden;
+    height: 100px;
+    width: 250px;
+    text-align:left;
+}
+
+.Details {
+    margin: 10px;
+}
+
+.divTextName2 {
+    height: 70px;
+    width: 150px;
+    border-top: 2px solid;
+}
+
+.material-icons {
+    margin: 7px;
+}
+
+.material-icons:hover {
+    color: blue;
+
+}
